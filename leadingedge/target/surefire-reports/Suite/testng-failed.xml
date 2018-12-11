@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="GC"/>
+  <test name="Test(failed)" preserve-order="false">
+    <parameter name="browser" value="GC"/>
+    <classes>
+      <class name="com.ApplicationPages.ValidateHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkHomePage"/>
+          <include name="getResult"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

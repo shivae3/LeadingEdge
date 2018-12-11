@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 43.156 sec <<< FAILURE! - in TestSuite
+checkHomePage(com.ApplicationPages.ValidateHomePage)  Time elapsed: 23.687 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at com.ApplicationPages.ValidateHomePage.checkHomePage(ValidateHomePage.java:28)
+
+getResult(com.ApplicationPages.ValidateHomePage)  Time elapsed: 23.703 sec  <<< FAILURE!
+java.lang.NullPointerException
+
